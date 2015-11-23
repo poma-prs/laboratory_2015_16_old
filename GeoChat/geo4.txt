@@ -35,7 +35,9 @@
 		если баланс позволяет отображает status ok/код ошибки
 		если баланса нет status not ok/код ошибки
 	з модуль выбора дистанции поиска собеседника, выбора собеседника
-		вход auth_key/dist
+		вход auth_key,dist
 		получение dialog_id,user_id,nick,latitude,longitude/код ошибки
  Модуль навигации:
 	навигационное меню
+		вход auth_key,nav_id
+		получение activity_id
