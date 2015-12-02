@@ -1,0 +1,31 @@
+class Data
+	Opertor operator;
+	string phoneNumber;
+	decimal amount;
+
+class Operator
+	string name;
+	int id;
+
+class Controller
+	void buttonSend();
+	void buttonCancel();
+	void buttonChooseOperator();
+
+class EventHandler
+	void handleNewData(Data);
+	void sendQueueData();
+	private bool checkPhoneNumber();
+
+class LocalHistory
+	List<Data> readHistory();
+	List<Data> readQueue();
+	void writeHistory(Data);
+	void writeHistory(List<Data>);
+	void writeQueue(Data);
+	void writeQueue(List<Data>);
+
+class Connector
+	private void connect();
+	bool sendToServer(Data);
+	
