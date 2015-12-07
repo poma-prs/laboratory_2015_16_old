@@ -16,7 +16,7 @@ namespace Terminal
         int InsertedMoney = 0;
         Transaction transaction;
         static Printer printer;
-        static BillAnalizer analizer;
+        static BillAnalyzer analyzer;
         Locker locker;
 
         public TerminalForm()
@@ -36,7 +36,7 @@ namespace Terminal
             SwitchingTabAllowed = false;
             transaction = new Transaction();
             printer = new Printer();
-            analizer = new BillAnalizer();
+            analyzer = new BillAnalyzer();
             locker = new Locker();
             ResetInterface();
         }

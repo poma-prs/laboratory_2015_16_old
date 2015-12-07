@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Terminal
 {
-    public class BillAnalizer
+    public class BillAnalyzer
     {
         public static RubleBill AnalyzeBill(object source)
         {
