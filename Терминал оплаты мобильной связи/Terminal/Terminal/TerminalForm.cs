@@ -13,11 +13,11 @@ namespace Terminal
     public partial class TerminalForm : Form
     {
         bool SwitchingTabAllowed;
-        int InsertedMoney = 0;
         Transaction transaction;
-        static Printer printer;
-        static BillAnalyzer analyzer;
+        Printer printer;
+        BillAnalyzer analyzer;
         Locker locker;
+        HttpClient client;
 
         public TerminalForm()
         {
@@ -38,6 +38,7 @@ namespace Terminal
             printer = new Printer();
             analyzer = new BillAnalyzer();
             locker = new Locker();
+            client = new HttpClient();
             ResetInterface();
         }
 
@@ -56,6 +57,15 @@ namespace Terminal
             this.ButtonNext3.Enabled = false;
             this.PhoneNumberLabel.Text = string.Empty;
             this.InsertedMoneyLabel.Text = string.Empty;
+
+            if (!client.Ping())
+            {
+                locker.Lock("Отсутствует соединение с сервером.");
+                while (!client.Ping()) ;
+                locker.Unlock();
+            }
+
+            // Отправить очередь транзакций
         }
 
         private void tabControl_Selecting(object sender, System.Windows.Forms.TabControlCancelEventArgs e)
@@ -89,7 +99,14 @@ namespace Terminal
         private void ButtonNext2_Click(object sender, EventArgs e)
         {
             if (PhoneNumberMaskedTextBox.MaskFull)
+            {
                 transaction.PhoneNumber = PhoneNumberMaskedTextBox.Text;
+                if (!client.CheckOperator(transaction.Operator, transaction.PhoneNumber))
+                {
+                    MessageBox.Show("Данный номер не принадлежит выбранному оператору.");
+                    return;
+                }
+            }
             else
                 throw new Exception("Не указан номер мобильного телефона.");
             SwitchTab(true);
@@ -97,7 +114,7 @@ namespace Terminal
 
         private void ButtonNext3_Click(object sender, EventArgs e)
         {
-            transaction.Sum = InsertedMoney;
+            transaction.Sum = analyzer.CurrentSum;
             SwitchTab(true);
         }
 
@@ -136,13 +153,8 @@ namespace Terminal
 
         private void InsertingBill(object sender, EventArgs e)
         {
-            //////////////////////////////////
-            var buttonText = ((Button)sender).Text;
-            var valueText = buttonText.Substring(0, buttonText.IndexOf(' '));
-            var value = Int32.Parse(valueText);
-            //////////////////////////////////
-            InsertedMoney += value;
-            InsertedMoneyTextBox.Text = InsertedMoney.ToString();
+            analyzer.AnalyzeBill(sender);
+            InsertedMoneyTextBox.Text = analyzer.CurrentSum.ToString();
         }
 
         private void RecievedMoneyTextBox_TextChanged(object sender, EventArgs e)
@@ -163,24 +175,22 @@ namespace Terminal
 
         private void CancelTransaction(object sender, EventArgs e)
         {
-            ///////////////////////////////////////
-
+            analyzer.ReturnBills();
             ResetInterface();
-            //////////////////////////////////////
-        }
-
-        private void CommitTransaction(Transaction transaction)
-        {
-
         }
 
         private void ButtonCommitTransaction_Click(object sender, EventArgs e)
         {
-            //////////////////////////////////////
+            if (!client.SendTransaction(transaction))
+            {
+                // Добавить транзакцию в очередь
+            }
 
+            // Записать в лог
+
+            analyzer.StoreBills();
             printer.Print(transaction);
             ResetInterface();
-            //////////////////////////////////////
         }
     }
 }

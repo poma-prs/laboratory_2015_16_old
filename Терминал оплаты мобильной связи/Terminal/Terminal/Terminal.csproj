@@ -44,13 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BillAnalizer.cs" />
+    <Compile Include="BillAnalyzer.cs" />
     <Compile Include="ChequeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ChequeForm.Designer.cs">
       <DependentUpon>ChequeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DiscWriter.cs" />
     <Compile Include="HttpClient.cs" />
     <Compile Include="IPrinter.cs" />
     <Compile Include="Locker.cs">
