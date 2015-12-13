@@ -64,6 +64,7 @@
     <Compile Include="PrinterState.cs" />
     <Compile Include="RubleBill.cs" />
     <Compile Include="MobileOperator.cs" />
+    <Compile Include="ServerResponse.cs" />
     <Compile Include="TerminalForm.cs">
       <SubType>Form</SubType>
     </Compile>

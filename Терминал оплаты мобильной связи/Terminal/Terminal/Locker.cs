@@ -1,42 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Timers;
 using System.Windows.Forms;
 
 namespace Terminal
 {
     public partial class Locker : Form
     {
-        bool allowClosing;
+        TerminalForm form;
+        HttpClient client;
 
-        public Locker()
+        public Locker(TerminalForm form, ref HttpClient client)
         {
             InitializeComponent();
-            allowClosing = false;
+            this.form = form;
+            this.client = client;
         }
 
         public void Lock(string cause)
         {
+            form.Enabled = false;
             CauseOfLockLabel.Text = cause;
-            this.ShowDialog();
-            DialogResult result = DialogResult;
+            if (client.Ping() != ServerResponse.Positive)
+            {
+                this.Show();
+                while (client.Ping() != ServerResponse.Positive) ;
+            }
+            Unlock();
         }
 
         public void Unlock()
         {
-            allowClosing = true;
-            this.Close();
-        }
-
-        protected override void OnClosing(CancelEventArgs e)
-        {
-            e.Cancel = !allowClosing;
-            base.OnClosing(e);
+            this.Hide();
+            form.Enabled = true;
         }
     }
 }

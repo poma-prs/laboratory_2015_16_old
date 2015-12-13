@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Terminal
@@ -18,6 +13,8 @@ namespace Terminal
         BillAnalyzer analyzer;
         Locker locker;
         HttpClient client;
+        Queue<Transaction> queue;
+        DiscWriter writer;
 
         public TerminalForm()
         {
@@ -33,13 +30,15 @@ namespace Terminal
             this.TransactionCommitingTabPage.Enter += tabPage4_Enter;
             this.ButtonCancel1.Click += CancelTransaction;
             this.ButtonCancel2.Click += CancelTransaction;
-            SwitchingTabAllowed = false;
+            
             transaction = new Transaction();
             printer = new Printer();
             analyzer = new BillAnalyzer();
-            locker = new Locker();
             client = new HttpClient();
-            ResetInterface();
+            locker = new Locker(this, ref client);
+            queue = new Queue<Transaction>();
+            writer = new DiscWriter(ref queue);
+            Reset();
         }
 
         private void ResetInterface()
@@ -57,15 +56,30 @@ namespace Terminal
             this.ButtonNext3.Enabled = false;
             this.PhoneNumberLabel.Text = string.Empty;
             this.InsertedMoneyLabel.Text = string.Empty;
+            SwitchingTabAllowed = false;
+        }
 
-            if (!client.Ping())
+        private void Reset()
+        {
+            ResetInterface();
+            if (client.Ping() != ServerResponse.Positive)
             {
-                locker.Lock("Отсутствует соединение с сервером.");
-                while (!client.Ping()) ;
-                locker.Unlock();
+                locker.Lock(@"Отсутствует соединение 
+с сервером");
             }
 
-            // Отправить очередь транзакций
+            for (int i = 0; i < queue.Count; i++)
+            {
+                Transaction tmp = queue.Peek();
+                if (client.SendTransaction(tmp) == ServerResponse.Positive)
+                {
+                    queue.Dequeue();
+                }
+                else
+                {
+                    break;
+                }
+            }
         }
 
         private void tabControl_Selecting(object sender, System.Windows.Forms.TabControlCancelEventArgs e)
@@ -101,10 +115,17 @@ namespace Terminal
             if (PhoneNumberMaskedTextBox.MaskFull)
             {
                 transaction.PhoneNumber = PhoneNumberMaskedTextBox.Text;
-                if (!client.CheckOperator(transaction.Operator, transaction.PhoneNumber))
+                ServerResponse checkResponse = client.CheckOperator(transaction.Operator, transaction.PhoneNumber);
+                if (checkResponse == ServerResponse.Negative)
                 {
                     MessageBox.Show("Данный номер не принадлежит выбранному оператору.");
                     return;
+                }
+                else if (checkResponse == ServerResponse.None)
+                {
+                    locker.Lock(@"Отсутствует соединение 
+с сервером");
+                    Reset();
                 }
             }
             else
@@ -176,21 +197,26 @@ namespace Terminal
         private void CancelTransaction(object sender, EventArgs e)
         {
             analyzer.ReturnBills();
-            ResetInterface();
+            Reset();
         }
 
         private void ButtonCommitTransaction_Click(object sender, EventArgs e)
         {
-            if (!client.SendTransaction(transaction))
+            if (client.SendTransaction(transaction) == ServerResponse.None)
             {
-                // Добавить транзакцию в очередь
+                queue.Enqueue(transaction);
             }
-
-            // Записать в лог
-
+            writer.WriteToLog(transaction);
             analyzer.StoreBills();
             printer.Print(transaction);
-            ResetInterface();
+            Reset();
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            writer.StoreQueue();
+            writer.Close();
+            base.OnClosing(e);
         }
     }
 }

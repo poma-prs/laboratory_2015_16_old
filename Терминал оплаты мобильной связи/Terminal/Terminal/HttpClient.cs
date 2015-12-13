@@ -31,26 +31,56 @@ namespace Terminal
             return Encoding.UTF8.GetString(responseBytes.ToArray());
         }
 
-        public bool Ping()
+        public ServerResponse Ping()
         {
-            return Post("Ping", string.Empty, 2000) == "OK";
+            try
+            {
+                return Post("Ping", string.Empty, 5000) == "OK" ? 
+                    ServerResponse.Positive : ServerResponse.Negative;
+            }
+            catch
+            {
+                return ServerResponse.None;
+            }
         }
 
-        public bool CheckOperator(MobileOperator op, string number)
+        public ServerResponse CheckOperator(MobileOperator op, string number)
         {
-            return Post("CheckOperator", op.ToString() + " " + number.Replace(" ", ""), 5000) == "Correct";
+            try
+            {
+                return Post("CheckOperator", op.ToString() + " " + number.Replace(" ", ""), 5000) == "Correct" ?
+                    ServerResponse.Positive : ServerResponse.Negative;
+            }
+            catch
+            {
+                return ServerResponse.None;
+            }
         }
 
-        public bool SendLock(string info)
+        public ServerResponse SendLock(string info)
         {
-            return Post("Lock", info, Timeout.Infinite) == "Unlock";
+            try
+            {
+                return Post("Lock", info, Timeout.Infinite) == "Unlock" ?
+                    ServerResponse.Positive : ServerResponse.Negative;
+            }
+            catch
+            {
+                return ServerResponse.None;
+            }
         }
 
-        public bool SendTransaction(Transaction transaction)
+        public ServerResponse SendTransaction(Transaction transaction)
         {
-            return Post("Commit", transaction.Operator.ToString() + " " +
-                transaction.PhoneNumber.Replace(" ", "") + " " + 
-                transaction.Sum.ToString(), 10000) == "Success";
+            try
+            {
+                return Post("Commit", transaction.ToString(), 10000) == "Success" ?
+                    ServerResponse.Positive : ServerResponse.Negative;
+            }
+            catch
+            {
+                return ServerResponse.None;
+            }
         }
     }
 }
