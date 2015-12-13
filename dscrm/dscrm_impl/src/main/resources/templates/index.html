@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>DSCRM - CRM для автошкол</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link
+            th:href="@{http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css}"
+            rel="stylesheet"/>
+<!--     <link rel="stylesheet" th:href="@{resource/main.css}"/> -->
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script
+            src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--     <script th:src="@{resource/script.js}"></script> -->
+</head>
+
+<body>
+<div class="col-md-12">
+    <h1>
+        <span>Клиенты</span>
+    </h1>
+    <table th:if="${customers}" class="table table-striped">
+        <thead>
+        <tr>
+            <th>ФИО</th>
+            <th>Телефон</th>
+            <th>Адрес</th>
+            <th>Группа</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="customer : ${customers}">
+            <td th:text="${customer.fullname}">brand</td>
+            <td th:text="${customer.phoneNumber}">model</td>
+            <td th:text="${customer.addres}">date</td>
+            <td th:text="${customer.groupNumber}">date</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
