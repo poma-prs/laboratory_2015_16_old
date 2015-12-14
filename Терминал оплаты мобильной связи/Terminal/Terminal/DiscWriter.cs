@@ -4,7 +4,7 @@ using System.IO;
 
 namespace Terminal
 {
-    public class DiscWriter
+    public class DiscWriter: IDiscWriter
     {
         Queue<Transaction> queue;
         StreamWriter logFile;

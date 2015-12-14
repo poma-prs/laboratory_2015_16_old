@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace Terminal
 {
-    public class HttpClient
+    public class HttpClient : IHttpClient
     {
         string prefix = "http://127.0.0.1:10000";
 
@@ -35,7 +35,7 @@ namespace Terminal
         {
             try
             {
-                return Post("Ping", string.Empty, 5000) == "OK" ? 
+                return Post("Ping", string.Empty, 5000) == "OK" ?
                     ServerResponse.Positive : ServerResponse.Negative;
             }
             catch

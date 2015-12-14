@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace Terminal
 {
-    public class BillAnalyzer
+    public class BillAnalyzer: IBillAnalyzer
     {
         List<RubleBill> currentTransactionBills = new List<RubleBill>();
         public int CurrentSum { get; private set; }

@@ -53,6 +53,9 @@
     </Compile>
     <Compile Include="DiscWriter.cs" />
     <Compile Include="HttpClient.cs" />
+    <Compile Include="IBillAnalyzer.cs" />
+    <Compile Include="IDiscWriter.cs" />
+    <Compile Include="IHttpClient.cs" />
     <Compile Include="IPrinter.cs" />
     <Compile Include="Locker.cs">
       <SubType>Form</SubType>
