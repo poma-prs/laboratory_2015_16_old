@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Terminal
 {
-    interface IHttpClient
+    public interface IHttpClient
     {
         ServerResponse Ping();
         ServerResponse CheckOperator(MobileOperator op, string number);
