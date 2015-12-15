@@ -1,8 +1,10 @@
-﻿namespace Buzzer.Interface
+﻿using System.Collections.Generic;
+
+namespace Buzzer.Interface
 {
     public interface ISensorManager
     {
-        void Registrate();
-        void ScanPorts();
+        bool Registrate(int port);
+        void ScanPorts(IList<int> ports);
     }
 }

@@ -1,10 +1,12 @@
-﻿namespace Buzzer.Interface
+﻿using System.Collections.Generic;
+
+namespace Buzzer.Interface
 {
     public interface IWebInterface
     {
-        void ViewAddNotificationPage();
-        void ViewUpdateNotificationPage();
-        void ViewRemoveNotificationPage();
-        void ViewNotificationListPage();
+        INotification ViewAddNotificationPage();
+        void ViewUpdateNotificationPage(INotification notification);
+        void ViewRemoveNotificationPage(INotification notification);
+        void ViewNotificationListPage(IList<INotification> notifications);
     }
 }

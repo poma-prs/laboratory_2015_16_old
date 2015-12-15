@@ -1,12 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Buzzer.Interface
 {
     public interface INotificationRepository
     {
-        void Add(INotification notification);
-        INotification Update(long id);
-        void Remove(long id);
-        IList<INotification> GetAll();
+        bool Add(INotification notification);
+        bool Update(INotification notification);
+        bool Remove(long id);
+        IList<INotification> GetRange(TimeSpan startTime, TimeSpan endTime);
     }
 }
