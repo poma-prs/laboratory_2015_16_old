@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Terminal
 {
-    interface IBillAnalyzer
+    public interface IBillAnalyzer
     {
         bool AnalyzeBill(object source);
         void ReturnBills();

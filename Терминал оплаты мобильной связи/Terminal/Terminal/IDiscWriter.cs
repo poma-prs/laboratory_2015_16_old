@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Terminal
 {
-    interface IDiscWriter
+    public interface IDiscWriter
     {
         void WriteToLog(Transaction transaction);
         void StoreQueue();
