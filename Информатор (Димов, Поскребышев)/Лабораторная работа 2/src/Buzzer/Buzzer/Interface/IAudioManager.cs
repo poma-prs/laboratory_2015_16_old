@@ -1,10 +1,11 @@
 ﻿using System.IO;
+using Buzzer.Models;
 
 namespace Buzzer.Interface
 {
     public interface IAudioManager
     {
-        void Play(IAudio audio);
-        Stream GetAudioStream(IAudio audio);
+        void Play(Audio audio);
+        Stream GetAudioStream(Audio audio);
     }
 }

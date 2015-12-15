@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
+using Buzzer.Models;
 
 namespace Buzzer.Interface
 {
     public interface IWebInterface
     {
-        INotification ViewAddNotificationPage();
-        void ViewUpdateNotificationPage(INotification notification);
-        void ViewRemoveNotificationPage(INotification notification);
-        void ViewNotificationListPage(IList<INotification> notifications);
+        Notification ViewAddNotificationPage();
+        void ViewUpdateNotificationPage(Notification notification);
+        void ViewRemoveNotificationPage(Notification notification);
+        void ViewNotificationListPage(IList<Notification> notifications);
     }
 }
