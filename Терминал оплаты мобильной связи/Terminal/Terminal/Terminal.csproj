@@ -44,14 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BillAnalizer.cs" />
+    <Compile Include="BillAnalyzer.cs" />
     <Compile Include="ChequeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ChequeForm.Designer.cs">
       <DependentUpon>ChequeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DiscWriter.cs" />
     <Compile Include="HttpClient.cs" />
+    <Compile Include="IBillAnalyzer.cs" />
+    <Compile Include="IDiscWriter.cs" />
+    <Compile Include="IHttpClient.cs" />
     <Compile Include="IPrinter.cs" />
     <Compile Include="Locker.cs">
       <SubType>Form</SubType>
@@ -63,6 +67,7 @@
     <Compile Include="PrinterState.cs" />
     <Compile Include="RubleBill.cs" />
     <Compile Include="MobileOperator.cs" />
+    <Compile Include="ServerResponse.cs" />
     <Compile Include="TerminalForm.cs">
       <SubType>Form</SubType>
     </Compile>

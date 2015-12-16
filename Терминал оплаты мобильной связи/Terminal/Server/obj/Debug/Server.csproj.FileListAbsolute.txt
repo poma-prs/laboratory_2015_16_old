@@ -1,0 +1,11 @@
+F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Server\bin\Debug\Server.exe.config
+F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Server\bin\Debug\Server.exe
+F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Server\bin\Debug\Server.pdb
+F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Server\obj\Debug\Server.exe
+F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Server\obj\Debug\Server.pdb
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Server\bin\Debug\Server.exe.config
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Server\obj\Debug\Server.exe
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Server\obj\Debug\Server.pdb
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Server\bin\Debug\Server.exe
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Server\bin\Debug\Server.pdb
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache

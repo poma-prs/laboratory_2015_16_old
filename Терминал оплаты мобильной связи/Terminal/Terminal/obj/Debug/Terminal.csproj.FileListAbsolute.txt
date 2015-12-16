@@ -9,3 +9,17 @@ F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной с
 F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.pdb
 F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.ChequeForm.resources
 F:\GitHub\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.Locker.resources
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\bin\Debug\Terminal.exe.config
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.exe
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.pdb
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\bin\Debug\Terminal.exe
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\bin\Debug\Terminal.pdb
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.ChequeForm.resources
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.Locker.resources
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.TerminalForm.resources
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.Properties.Resources.resources
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.csproj.GenerateResource.Cache
+D:\Полученные файлы\laboratory_2015_16-master\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.csprojResolveAssemblyReference.cache
+C:\Users\Артёмка\Desktop\7 семестр\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Terminal\bin\Debug\Terminal.exe.config
+C:\Users\Артёмка\Desktop\7 семестр\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.exe
+C:\Users\Артёмка\Desktop\7 семестр\laboratory_2015_16\Терминал оплаты мобильной связи\Terminal\Terminal\obj\Debug\Terminal.pdb
