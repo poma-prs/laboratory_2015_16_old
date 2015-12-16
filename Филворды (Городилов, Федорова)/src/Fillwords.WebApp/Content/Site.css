@@ -1,0 +1,23 @@
+﻿body {
+    background-image: url(bg.jpg);
+}
+
+.game-field {
+	margin: 130px auto;
+	width: 552px;
+	height: 552px;
+	background: #999999;
+}
+
+.game-field-cell {
+    width: 90px;
+    height: 90px;
+    background: #b9b9b9;
+    float: left;
+    margin: 1px;
+}
+
+.game-field-letter {
+    margin: 30px;
+    font-size: 40pt;
+}

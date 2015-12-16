@@ -9,5 +9,7 @@ namespace Buzzer.Interface
         void ViewUpdateNotificationPage(Notification notification);
         void ViewRemoveNotificationPage(Notification notification);
         void ViewNotificationListPage(IList<Notification> notifications);
+        void ViewLoginPage();
+        bool CheckPassword(string password);
     }
 }

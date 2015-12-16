@@ -1,0 +1,13 @@
+﻿@model Fillwords.WebApp.ViewModels.GameFieldPage
+
+<div class="game-field">
+    @for (int i = 0; i < @Model.GameField.Height; ++i)
+    {
+        for (int j = 0; j < @Model.GameField.Width; ++j)
+        {
+            <div class="game-field-cell">
+                <span class="game-field-letter">@Model.GameField.Field[i][j]</span>
+            </div>
+        }
+    }
+</div>
