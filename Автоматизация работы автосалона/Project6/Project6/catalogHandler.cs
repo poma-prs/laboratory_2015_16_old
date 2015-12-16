@@ -8,6 +8,7 @@ namespace Project6
 {
     class CatalogHandler:IcatalogHandler
     {
+        DiscountHandler _discountHandler { get; set; } 
         public int count_cars(int id_car)
         {
             var db = new db();
