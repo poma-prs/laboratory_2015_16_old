@@ -124,13 +124,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Interface\IAudio.cs" />
     <Compile Include="Interface\IAudioManager.cs" />
-    <Compile Include="Interface\INotification.cs" />
     <Compile Include="Interface\INotificationManager.cs" />
     <Compile Include="Interface\INotificationRepository.cs" />
     <Compile Include="Interface\ISensorManager.cs" />
     <Compile Include="Interface\IWebInterface.cs" />
+    <Compile Include="Models\Audio.cs" />
+    <Compile Include="Models\AudioManager.cs" />
+    <Compile Include="Models\BuzzerManager.cs" />
+    <Compile Include="Models\Notification.cs" />
+    <Compile Include="Models\NotificationManager.cs" />
+    <Compile Include="Models\NotificationRepository.cs" />
+    <Compile Include="Models\Port.cs" />
+    <Compile Include="Models\Sensor.cs" />
+    <Compile Include="Models\SensorManager.cs" />
+    <Compile Include="Models\WebInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -171,7 +179,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
