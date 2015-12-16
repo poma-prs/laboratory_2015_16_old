@@ -12,12 +12,12 @@ namespace Buzzer.Models
             _notificationManager = notificationManager;
         }
 
-        public bool Registrate(int port)
+        public bool Registrate(Sensor sensor)
         {
             throw new System.NotImplementedException();
         }
 
-        public void ScanPorts(IList<int> ports)
+        public void ScanPorts(IList<Sensor> sensors)
         {
             throw new System.NotImplementedException();
         }
