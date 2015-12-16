@@ -10,3 +10,6 @@ C:\Users\user\Documents\Visual Studio 2013\Projects\Project6\Project6\bin\Debug\
 C:\Users\user\Documents\Visual Studio 2013\Projects\Project6\Project6\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\user\Documents\Visual Studio 2013\Projects\Project6\Project6\bin\Debug\EntityFramework.xml
 C:\Users\user\Documents\Visual Studio 2013\Projects\Project6\Project6\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\laboratory_2015_16\Автоматизация работы автосалона\Project6\Project6\bin\Debug\Project6.exe.config
+C:\Users\user\laboratory_2015_16\Автоматизация работы автосалона\Project6\Project6\obj\Debug\Project6.exe
+C:\Users\user\laboratory_2015_16\Автоматизация работы автосалона\Project6\Project6\obj\Debug\Project6.pdb
