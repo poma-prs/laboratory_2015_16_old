@@ -35,5 +35,15 @@ namespace Buzzer.Models
         {
             throw new System.NotImplementedException();
         }
+
+        public void ViewLoginPage()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool CheckPassword(string password)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
