@@ -1,0 +1,14 @@
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\bin\Debug\TETRISMAZAFAKA.exe.config
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\bin\Debug\TETRISMAZAFAKA.exe
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\bin\Debug\TETRISMAZAFAKA.pdb
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.csprojResolveAssemblyReference.cache
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.Form1.resources
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.Properties.Resources.resources
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.csproj.GenerateResource.Cache
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.exe
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.pdb
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.Registration.resources
+c:\users\алексей\documents\visual studio 2013\Projects\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.Autorization.resources
+F:\TETRISMAZAFAKA\TETRISMAZAFAKA\bin\Debug\TETRISMAZAFAKA.exe.config
+F:\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.exe
+F:\TETRISMAZAFAKA\TETRISMAZAFAKA\obj\Debug\TETRISMAZAFAKA.pdb
