@@ -2,7 +2,7 @@
 
 namespace Auto.AutoSystems.ParkingSensor
 {
-    class ParkingSensor : IAutoSystem
+    class ParkingSensor : IAutoSystem, IParkingSensor
     {
         public void TurnOn()
         {

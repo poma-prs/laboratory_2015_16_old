@@ -49,6 +49,7 @@
     <Compile Include="AutoSystems\MediaPlayer\IMedia.cs" />
     <Compile Include="AutoSystems\MediaPlayer\Player.cs" />
     <Compile Include="AutoSystems\MediaPlayer\Radio.cs" />
+    <Compile Include="AutoSystems\ParkingSensor\IParkingSensor.cs" />
     <Compile Include="AutoSystems\ParkingSensor\ParkingSensor.cs" />
     <Compile Include="FormConditioner.cs">
       <SubType>Form</SubType>
@@ -100,6 +101,7 @@
     </Compile>
     <Compile Include="Navigator\Coordinate.cs" />
     <Compile Include="Navigator\MyNavigator.cs" />
+    <Compile Include="Option.cs" />
     <Compile Include="Trip\CurrentFuelData.cs" />
     <Compile Include="Trip\CurrentTripData.cs" />
     <Compile Include="Trip\FuelJournalData.cs" />

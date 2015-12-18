@@ -1,0 +1,6 @@
+c:\users\asus\documents\visual studio 2013\Projects\Auto\bin\Debug\Auto.exe.config
+c:\users\asus\documents\visual studio 2013\Projects\Auto\obj\Debug\Auto.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2013\Projects\Auto\bin\Debug\Auto.exe
+c:\users\asus\documents\visual studio 2013\Projects\Auto\bin\Debug\Auto.pdb
+c:\users\asus\documents\visual studio 2013\Projects\Auto\obj\Debug\Auto.exe
+c:\users\asus\documents\visual studio 2013\Projects\Auto\obj\Debug\Auto.pdb

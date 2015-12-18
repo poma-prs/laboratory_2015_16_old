@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Auto.Navigator;
+using Auto.AutoSystems;
 
 namespace Auto
 {
     public partial class FormMenu : Form, Igui
-    {
-        enum Option { navigator, player, radio, tripData, journal, conditioner, parkingSensor };
+    {        
         private Option option;
         private FormNavigator formNavigator;
         private FormPlayer formPlayer;
@@ -22,6 +22,7 @@ namespace Auto
         private FormTrip formTrip;
         private FormJournal formJournal;
         private FormParkingSensor formParking;
+        private AutoState autoState;
 
         public FormMenu()
         {
@@ -68,6 +69,13 @@ namespace Auto
                 default:
                     break;
             }
+        }
+
+        private void ShowState()
+        {
+            autoState.GetCurrentState();
+            autoState.GetBatteryCharge();
+            autoState.GetEngineHeat();
         }
 
         private void buttonNavigator_Click(object sender, EventArgs e)
