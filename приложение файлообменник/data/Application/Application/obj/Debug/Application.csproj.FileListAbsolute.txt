@@ -1,0 +1,13 @@
+C:\Users\Денис\OneDrive\Visual Studio 2015\Projects\Application\Application\bin\Debug\Application.exe.config
+C:\Users\Денис\OneDrive\Visual Studio 2015\Projects\Application\Application\bin\Debug\Application.exe
+C:\Users\Денис\OneDrive\Visual Studio 2015\Projects\Application\Application\bin\Debug\Application.pdb
+C:\Users\Денис\OneDrive\Visual Studio 2015\Projects\Application\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+C:\Users\Денис\OneDrive\Visual Studio 2015\Projects\Application\Application\obj\Debug\Application.exe
+C:\Users\Денис\OneDrive\Visual Studio 2015\Projects\Application\Application\obj\Debug\Application.pdb
+C:\Users\Денис\Documents\laboratory_2015_16\приложение файлообменник\Application\Application\bin\Debug\Application.exe.config
+C:\Users\Денис\Documents\laboratory_2015_16\приложение файлообменник\Application\Application\obj\Debug\Application.exe
+C:\Users\Денис\Documents\laboratory_2015_16\приложение файлообменник\Application\Application\obj\Debug\Application.pdb
+C:\Users\Денис\Documents\laboratory_2015_16\приложение файлообменник\Application\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+C:\Users\Денис\Documents\laboratory_2015_16\приложение файлообменник\data\Application\Application\bin\Debug\Application.exe.config
+C:\Users\Денис\Documents\laboratory_2015_16\приложение файлообменник\data\Application\Application\obj\Debug\Application.exe
+C:\Users\Денис\Documents\laboratory_2015_16\приложение файлообменник\data\Application\Application\obj\Debug\Application.pdb
