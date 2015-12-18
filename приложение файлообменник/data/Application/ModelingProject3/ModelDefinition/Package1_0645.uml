@@ -1,0 +1,1437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5ae29245-3643-4696-b966-ea944c8ba6bf"
+  name="App"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d1522f82-577a-4d43-8cb7-ba16930fbc07"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DApplication.Interfaces.App"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="d8cd8cb8-404d-467b-b3c9-771d211820b1"
+        name="ICheckerLicenceApp"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="799e3eb9-8eed-425d-97f0-6844d6f11a6b"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DICheckerLicenceApp"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ca7a1055-c3ac-479c-9556-86fee4ff3c43"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6173f2e8-5da7-4bc2-bde3-11d373d75947">
+                <propertyInstance
+                  Id="456d0453-9d6f-4e46-b237-68983b585702"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8ca80fb-99ce-4892-8818-06b53ad20ad1">
+                <propertyInstance
+                  Id="3879a017-2e10-4fd7-a62b-b299f3315145"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="edccf02d-e58a-48c1-9318-b94d3df168c0">
+                <propertyInstance
+                  Id="16470186-e4eb-4b26-86f7-977de6a4a77f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2047284-a446-4543-80d1-12c19b70db13">
+                <propertyInstance
+                  Id="bf3994eb-3775-497a-8f4d-520d6c40490c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="ead54bc0-74b2-41f5-a871-a390eaaac119"
+            name="AddLicence"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d3c3b128-0bd9-4d0e-9135-74c9e8a57bdc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DICheckerLicenceApp Member%3D(Name%3DAddLicence OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d12f1435-c8db-4b75-81ac-3b35b9bbd423"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93019003-dfe4-4698-a8c5-44f1a2f68cdc">
+                    <propertyInstance
+                      Id="e894a607-8b8f-4e14-a685-b244cd6c4471"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c120ca11-b99d-407f-9c8f-61675c86aa88">
+                    <propertyInstance
+                      Id="bd9d16a8-be32-420f-8a68-8c33141b5874"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cb447fc-7c0e-4561-a686-1824c0e9583b">
+                    <propertyInstance
+                      Id="06e73dfb-019f-4549-a779-8bcd1c6502ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5af4657-0701-4858-8b6d-18171fe0bab4">
+                    <propertyInstance
+                      Id="909e33d5-42a4-4b06-83a9-7d8ab9a37cad"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43bb510d-fc3d-475e-a21a-761250457eec">
+                    <propertyInstance
+                      Id="3db3c085-3194-4425-be1e-449b72e174be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ad02872-8ba8-4be2-a46e-387fadbe1e79">
+                    <propertyInstance
+                      Id="81c62587-ec71-4f7a-8aed-21c9d4ee4ef3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ad0507a4-d181-4b00-9535-dbf2656c2911"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5c46a838-3935-477f-94ab-5ac6cc355e03"
+                  name="file"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0e4dde2a-8467-449a-be1e-a4de12e82237"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DICheckerLicenceApp Member%3D(Name%3DAddLicence OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)]) ParameterIdentifier%3Dfile"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f006986c-3656-4cd3-a67b-078c5b3b7ca2"
+                      LastKnownName="File"
+                      LastKnownLocation="Package4_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8867f789-6345-4d9c-a21b-a450f6a4cb46"
+            name="CheckLicence"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2f9a4cd0-a024-453b-9f62-384a203564a6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DICheckerLicenceApp Member%3D(Name%3DCheckLicence OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7ee23512-4447-492e-92b4-2d63263c5529"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b805622-c048-469a-900d-062c3df694d3">
+                    <propertyInstance
+                      Id="41904af4-f795-4748-a5d2-2afb9cf3c56e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a67ea3d-9b86-4a01-b8d0-65cb46db03a4">
+                    <propertyInstance
+                      Id="61612ab7-37e4-4e0f-874b-a0863a2e9fd5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="017244f4-9c3a-40f9-b729-c2afce7a8044">
+                    <propertyInstance
+                      Id="8c4c6a47-13ee-4bcd-ab5d-75c5c3ecd368"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d2e11ba-2cfd-4894-8a95-d23f7e455828">
+                    <propertyInstance
+                      Id="c1e0362f-952d-4864-91b5-2b93d0c76f38"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfaa2262-d6f3-45bb-a970-a420f38c2be0">
+                    <propertyInstance
+                      Id="5b2aaa79-fbc7-40b6-985a-bd3586611ba8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11fdb4c2-d99d-4f7b-8479-577a0e671073">
+                    <propertyInstance
+                      Id="7c45195d-1156-4e16-8529-5ab75aed6791"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a68c942a-c0fe-4f33-b1d2-52467601c34e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e5fa3084-cffe-40f8-87b9-2d3ce67f00d6"
+                  name="file"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="eca0bd57-e861-4105-98a4-de58b874f3c6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DICheckerLicenceApp Member%3D(Name%3DCheckLicence OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)]) ParameterIdentifier%3Dfile"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f006986c-3656-4cd3-a67b-078c5b3b7ca2"
+                      LastKnownName="File"
+                      LastKnownLocation="Package4_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="8ee2030b-48b2-4282-87dd-88f334662582"
+        name="IFileModuleApp"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="731c02ab-d7a4-47a7-a4ec-54e6f889285a"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bf92895a-4702-4473-96bd-ddc2e2d1b662"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e624343-052f-457d-a0ad-f56bdc1aeb13">
+                <propertyInstance
+                  Id="c4cf890b-3a15-489c-8631-51264706b5a6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a05cb085-9e8d-480c-9767-c00763ac3090">
+                <propertyInstance
+                  Id="71158c38-38ea-4b38-967f-c253eeec75fc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3dac3ccb-6b4f-4e2f-b85e-88e5f5fef1e4">
+                <propertyInstance
+                  Id="9602d986-4eff-40c8-bf62-4254dd5ebb20"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35198ab8-7437-4df7-aa00-ffe0c0b6647b">
+                <propertyInstance
+                  Id="c3d82a06-31d4-4492-bbb6-d480506b31a9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="7e989955-333f-45c3-8c1f-9e826faa6784"
+            name="AddNewFile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="310da96a-d8a3-4fce-a330-e992ce0f2b88"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DAddNewFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="25e04088-2ec7-4593-aacd-8d6ddce3bc84"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1701c990-4383-4a3a-8a5f-53206e677170">
+                    <propertyInstance
+                      Id="a197c424-a450-4223-b596-9d1092255aec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="107de4d9-6d4f-4cd6-ad31-85217a4a2f7a">
+                    <propertyInstance
+                      Id="4f6436e4-e063-4381-a526-51ecaf7e40bf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d79d09a3-d451-4b54-8908-6f3fd2c55bfe">
+                    <propertyInstance
+                      Id="08de9c65-bd8e-4959-811f-ccf7ba49fc85"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="971c339a-1432-4cd0-9d63-0b866d663083">
+                    <propertyInstance
+                      Id="7f860d19-298c-4047-8280-3857fd68a9d2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b718450-f6a7-4e92-801a-3d7e0cd19f0d">
+                    <propertyInstance
+                      Id="094e3b07-f903-4204-bda8-86d68ed75fec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f415ea5-6fd6-454d-b9d9-ad875e5b0e0b">
+                    <propertyInstance
+                      Id="c82c8163-84fc-45cc-a621-c519c395adc1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="10c5d1d7-2e2c-4995-b57d-95c549cccf5e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b6016211-5b44-4edf-a93a-45e393f3b03d"
+                  name="file"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ac2d03fd-53f0-4fa1-9f31-063f47b0ff93"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DAddNewFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)]) ParameterIdentifier%3Dfile"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f006986c-3656-4cd3-a67b-078c5b3b7ca2"
+                      LastKnownName="File"
+                      LastKnownLocation="Package4_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="812f1ef6-ad16-4daf-aa90-2f3b970c5c2b"
+            name="ShareFile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="183026f0-10fc-4632-8b3e-dbd8353973ac"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DShareFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DTimeSpan)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c6c3cb56-24d5-4a14-b099-5e130dcab783"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5806866-28fd-413c-a438-c4eea75901c7">
+                    <propertyInstance
+                      Id="b1fb45c6-795d-4100-a54f-636f0a2889bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c4c4a9c-37f7-42ab-af2a-e7c2a57a9847">
+                    <propertyInstance
+                      Id="a2034362-bbcb-4f5c-a8bf-9704c9a769aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c3e3eb6-06df-4881-ac53-20ba2c0960cc">
+                    <propertyInstance
+                      Id="275a0abf-7416-4415-a66c-463806fd455b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a65fbf72-8a9c-485c-864d-e1e5c4e1b0f2">
+                    <propertyInstance
+                      Id="61a0bd72-df8a-4e7f-a7f4-def1d187f6cf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a51561c7-57ab-466b-bb9d-7ab3750aaffd">
+                    <propertyInstance
+                      Id="4d8b701e-92ac-42d1-872a-ab4086f8714c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35eaa4f9-25b2-481a-acc8-4792f8737ef4">
+                    <propertyInstance
+                      Id="bd5cf7fa-bf45-46b6-927f-ae0e3b61bb9e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b74fb9ef-c748-4199-b7d7-f6e2ee2d90d0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a540a80-4c92-49a6-8e26-6de1ac519fdc"
+                  name="file"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="384614bc-c032-4d24-93f4-32646208acb9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DShareFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DTimeSpan)]) ParameterIdentifier%3Dfile"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f006986c-3656-4cd3-a67b-078c5b3b7ca2"
+                      LastKnownName="File"
+                      LastKnownLocation="Package4_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d5fdf1c9-890f-4d55-9fb1-eef76edb7809"
+                  name="timeSpan"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="eb4b5c5e-5fac-4746-a750-a863b330a99f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DShareFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DTimeSpan)]) ParameterIdentifier%3DtimeSpan"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3db540a0-2294-4a9b-8e49-358dc7b5b0f3"
+                      LastKnownName="TimeSpan"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c6803352-919e-44fd-bc0a-4b8d70de3319"
+            name="DeleteFile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b08c5134-4e70-429f-b0fc-afc33ba53e53"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DDeleteFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5be7d9e7-8c99-4227-8662-dc1ab0b3d9d5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a88d690-6106-4a54-9a60-99e1e56646de">
+                    <propertyInstance
+                      Id="81535372-5831-4849-89a0-cb4dbb8ed6ca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42de81f3-17b0-4a38-a03d-03d3881ba195">
+                    <propertyInstance
+                      Id="6595e8c9-43fc-4af9-a211-cfa51c596905"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb678d73-a09c-4ea3-b0fd-94d308fcc77f">
+                    <propertyInstance
+                      Id="769a676b-53f6-4949-8eb6-8bf52f42536c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="951883d8-aee9-4ecf-a4e8-89b750883b4f">
+                    <propertyInstance
+                      Id="bf4b0e39-3d0e-4f55-b42b-f981e211b361"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a8d832a-5d84-4d43-811a-563205c4901b">
+                    <propertyInstance
+                      Id="bf9b8926-2c95-4c22-a6ae-4ca768981c37"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2660a865-e94b-4c22-a5cd-d6045071ec97">
+                    <propertyInstance
+                      Id="bcdf5aed-d7da-40c7-9250-00813719a7d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="89669bc7-e1ba-430a-a831-04e38c1001b6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3628134c-0c37-4ce3-8dba-5ca5232ac68a"
+                  name="file"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5bd62298-dedf-48d1-b445-2f8a2480b539"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DDeleteFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)]) ParameterIdentifier%3Dfile"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f006986c-3656-4cd3-a67b-078c5b3b7ca2"
+                      LastKnownName="File"
+                      LastKnownLocation="Package4_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="81c426df-e62a-41ae-b14d-83535a534fc4"
+            name="ShowAll"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="33dde060-5bc9-4178-9934-4331df7880f7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DShowAll OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.ServiceLayer Type%3DSortingType)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="634d3fbe-7418-40f0-a02c-3fb7526d1466"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9530b198-15f4-42c2-8e1d-1c3a5e88f443">
+                    <propertyInstance
+                      Id="67a3cf22-5a1d-47dc-8b5a-f741e9a9702e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab9934d8-3745-449a-b21e-244fbc0f804a">
+                    <propertyInstance
+                      Id="f0636a8c-319b-4505-bc32-08059ff38f1a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fd0dc6b-8dd3-4392-be6c-75c7ea2f76ad">
+                    <propertyInstance
+                      Id="17ce9c35-7325-4dfa-a59b-869bcdd9a386"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c15a455-e7ee-434b-9180-d35d774ba653">
+                    <propertyInstance
+                      Id="e83a987a-1ae9-4025-8d81-df3d9780e2c5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9f95e95-33fb-4a58-8e95-2facb119d173">
+                    <propertyInstance
+                      Id="443ca98f-9e81-444c-83f6-4f4255f9dd01"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="576924b4-4f97-4229-8721-bdd91d7793b3">
+                    <propertyInstance
+                      Id="a7c09550-e282-4fef-9902-3eab5c4d141a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bdd15af6-c508-42db-8929-320b1052135c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="af4310a0-ac26-436a-b888-cd63921444a6"
+                      LastKnownName="IEnumerable&lt;Object‎&gt;"
+                      LastKnownLocation="Package3_0645.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ea871d6f-a56a-4a12-affc-4ec02333921e"
+                  name="sortingType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b241a2bf-6baf-46f1-9204-d109cb1a88c0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DShowAll OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.ServiceLayer Type%3DSortingType)]) ParameterIdentifier%3DsortingType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="06d5e935-079f-4ad6-ab96-93d3e56a6a80"
+                      LastKnownName="SortingType"
+                      LastKnownLocation="Package6_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="413be8e0-0ae8-448d-b3e3-8cd0404186da"
+            name="GetFile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f3964219-1cc4-4828-b10e-7d09d2d43cb1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DGetFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="603d5e94-5869-4b52-be8d-270bdc1f480c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f98c1ef9-d53a-4c53-b13f-eb648b0e8146">
+                    <propertyInstance
+                      Id="04220e04-cb74-495c-b293-5c506b499bf0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a16821c8-145b-47bd-b1bd-edf7b3b15a25">
+                    <propertyInstance
+                      Id="e7ce8e69-25f0-465e-88f9-033e9a608305"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="786a6d1d-a63c-465c-a02f-8af4e5168ed9">
+                    <propertyInstance
+                      Id="844fbbed-e1f9-4ab8-af0c-a3b62f4c9421"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="442e3b87-243e-4421-8060-010c232bc7be">
+                    <propertyInstance
+                      Id="8b7c9706-0bf7-4bb4-b11e-6180c18c78b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a69dd669-f1e7-469c-b339-68b0e5a9a06b">
+                    <propertyInstance
+                      Id="d3ab1576-ff8f-4d65-9296-d3a2367a17c5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f9b2861-9f17-4b30-9529-9ab3f1ffeaa1">
+                    <propertyInstance
+                      Id="efa9d2cf-02a7-4fcc-a661-298c7d308385"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b73b2e12-d86a-4f6e-8d04-f273ded2bb58"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="791f2d44-04ee-4947-9d65-e37fb2e799e7"
+                  name="fileId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="24ceb86c-cd7f-454c-89e4-c0dd497cb878"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileModuleApp Member%3D(Name%3DGetFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DfileId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="73c0cd61-e13e-4181-9f8f-af4ed1c77233"
+        name="IFileWorkerOnDeviceApp"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="ac3ceacb-4838-4018-a890-cfc998460798"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileWorkerOnDeviceApp"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9e86b45c-02a5-489e-a4c0-dec413b2618d"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e187f4fc-e864-4bbb-a12e-609eaafd6da6">
+                <propertyInstance
+                  Id="228ccfa3-6f9c-4aeb-916d-308d689be547"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0579ff6a-d296-41e7-bd91-34272214b0d6">
+                <propertyInstance
+                  Id="fe127cb4-640f-48ae-ac85-74c1949f49b7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be891ad3-31fb-4fa1-96c9-5c9aaff73fe7">
+                <propertyInstance
+                  Id="6396f7b3-25cb-4812-9607-69372cef7e95"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2740fa5-9ec7-4b66-a5f3-b24631e648e6">
+                <propertyInstance
+                  Id="7c9929e6-5717-47f1-8dbb-39515cf194ca"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="307cdf86-f589-488c-94aa-03a3dfa116cb"
+            name="EditFileOnDevice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2bf84ed7-53bf-492a-89c5-12135d4d2c33"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileWorkerOnDeviceApp Member%3D(Name%3DEditFileOnDevice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f92efcc7-3588-4707-9d39-5f4f0fb037c6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1bca82c-2d8c-4953-9af5-b8b018ffc01b">
+                    <propertyInstance
+                      Id="17d3af69-c0f0-4b04-bfab-678f844ab4e3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="693e2add-a8d0-4a53-b93c-5dc841026b6a">
+                    <propertyInstance
+                      Id="e3806347-0e2d-43fd-98a4-fce9b154d162"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0eea9650-4e99-460a-9584-3da85865d85e">
+                    <propertyInstance
+                      Id="1eafbe07-e2ea-4ce9-a357-d2b331655e6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a47aa57-91f3-4346-a633-18e6098c6298">
+                    <propertyInstance
+                      Id="ebdb82a6-ed85-4e07-8d6a-b2416b663a7a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="910fab75-7e36-44b9-9192-d1b0e03d6626">
+                    <propertyInstance
+                      Id="5f663410-9c8f-4f0b-8be0-57641ec455a3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="764953ff-b8bd-429c-950e-b888088eb431">
+                    <propertyInstance
+                      Id="721101f6-31db-44d0-85c0-35219145f850"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e884289d-b55e-40a0-822c-9a443eb0c0c1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ace0efef-6b52-4530-83d3-bf1f7de76685"
+                  name="editedFile"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5b84804a-0e02-4aa6-bcf0-115ccc69d48f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileWorkerOnDeviceApp Member%3D(Name%3DEditFileOnDevice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)]) ParameterIdentifier%3DeditedFile"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f006986c-3656-4cd3-a67b-078c5b3b7ca2"
+                      LastKnownName="File"
+                      LastKnownLocation="Package4_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6361ffab-6afb-4d26-8e75-4d053be55a5f"
+            name="SaveFileOnDevice"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3b545ab5-352a-4e34-a0e8-acdef7c1520b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileWorkerOnDeviceApp Member%3D(Name%3DSaveFileOnDevice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="47fdc00a-c09d-4818-bc02-f7868ee2b1e2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a159868e-0d2e-47b2-8b7a-8c55ea5157a2">
+                    <propertyInstance
+                      Id="890fd885-df3d-4b73-a6b4-7fccc826dcde"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="473407ce-4944-40c9-9673-8fc94791f1de">
+                    <propertyInstance
+                      Id="eba3cc43-9675-4c12-a5d3-39713291670e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="064fa877-cbf5-46da-b2a0-234adde58016">
+                    <propertyInstance
+                      Id="694d1e26-134e-4072-994d-151bee8278a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32e3803a-a647-4293-9dce-9a619931faf4">
+                    <propertyInstance
+                      Id="c6865180-5648-45b3-9e9e-ee2002a36637"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b9ecd61-e930-4679-969b-4bbd2cb5ede9">
+                    <propertyInstance
+                      Id="5eb9ca0d-fbe4-4ca7-809a-72a2137fb268"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="921ad1f5-c423-4cb2-a062-0aa5a37e38ca">
+                    <propertyInstance
+                      Id="477784b9-d89d-4b36-adc7-651addbb0cf7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="71cf0f17-0929-4468-bace-a5b43e771dda"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="128c575d-5d4b-4fc8-be56-25b0fc5dd6d4"
+                  name="file"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8ed762ab-1bfb-4ff9-a572-fec9a6178629"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIFileWorkerOnDeviceApp Member%3D(Name%3DSaveFileOnDevice OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Entity Type%3DFile)]) ParameterIdentifier%3Dfile"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f006986c-3656-4cd3-a67b-078c5b3b7ca2"
+                      LastKnownName="File"
+                      LastKnownLocation="Package4_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="598f62d9-8c55-4393-af32-8bd150083d71"
+        name="IIdentityModuleApp"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="38cb1aab-55cb-4aa8-a650-9fc2a443e31b"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="45f02a98-29e9-4cfb-9d30-a4a09338b692"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b776f98-70b8-4b02-81d7-8e7272a7cec2">
+                <propertyInstance
+                  Id="ca494fef-a6f5-4350-8907-8f8c7486366a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee20dce7-1059-4e6e-a003-b23f4ebf5505">
+                <propertyInstance
+                  Id="d3037483-15b4-47f7-8b6a-5f36678ea690"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e78fe94-f4c5-475f-9183-1058d2caa6bb">
+                <propertyInstance
+                  Id="ca7e88d9-7e2e-46dd-99a3-a6b752dc1ed2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="140de30d-5798-4f30-98e5-64b9112d67ef">
+                <propertyInstance
+                  Id="6b51b2de-f2b7-456c-a4f7-dd52e1ae4eea"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="315433d5-d7d5-44d9-ae8f-f807f6274c60"
+            name="AddNewUser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ccbe58f7-82e0-472f-950c-5450bd7900d3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp Member%3D(Name%3DAddNewUser OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.ServiceLayer Type%3DRegistrationModel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="972155a2-09bc-4dd6-9275-ea44391591fc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d007536c-f48d-462c-ad9e-891288aa9901">
+                    <propertyInstance
+                      Id="36c90a24-2675-4a52-b49d-3aa8960267ee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c06e3666-d004-4620-8729-a417914ca11b">
+                    <propertyInstance
+                      Id="09ef5dfd-51ae-4e95-9ed2-b4383dbfae19"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4d1ed1c-9a6c-42ea-9fee-f5a92ca6191d">
+                    <propertyInstance
+                      Id="4c0767cc-9e00-4f18-8d7c-716b2cad60b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12b191da-36d6-4fae-a268-cff2ef42cdce">
+                    <propertyInstance
+                      Id="644b2324-511f-4784-8ce3-12ccce965c5f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e29fe855-8198-43a4-ad1f-5b6fcfdd9bb5">
+                    <propertyInstance
+                      Id="edde260e-c514-4c08-8169-a9f283c8b760"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df371507-2a92-4e71-92e1-e65cfbb266e3">
+                    <propertyInstance
+                      Id="48069bd4-192e-49af-bb4c-0d4d5656c111"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d94c54f-e7db-41ed-b031-77b613820376"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="27957dff-0c0d-4fa7-af05-b3e8c12af184"
+                  name="model"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6773005e-bb05-4f0c-b32b-a82097346ebf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp Member%3D(Name%3DAddNewUser OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.ServiceLayer Type%3DRegistrationModel)]) ParameterIdentifier%3Dmodel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3f33eb82-8c98-4bc6-a2fd-2368b702032e"
+                      LastKnownName="RegistrationModel"
+                      LastKnownLocation="Package6_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="40705de5-281c-4f0a-b362-20c38a890090"
+            name="Authentication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="09bf82bf-e398-4cf4-94cc-6c0c5459bd70"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp Member%3D(Name%3DAuthentication OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="876a1116-91ba-4703-9b95-0357b44ca7b1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6820a29-7954-4417-ae1a-509117e9945f">
+                    <propertyInstance
+                      Id="eb7d5936-8921-4752-9a0b-e694cd4ade6b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67cbd750-e3ee-4174-a1a6-0880a9e01bba">
+                    <propertyInstance
+                      Id="66dab884-a08f-42df-b09d-2acdd9786ce2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cef402e5-a5f1-48f6-9380-7cc4d387b463">
+                    <propertyInstance
+                      Id="8cd37cd7-f2cd-40e7-ac09-be35276ce9bc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d88c2dfe-4679-407e-8a04-fc0d257a56ae">
+                    <propertyInstance
+                      Id="00e5a2e1-a022-486d-a897-e846b0e561b2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd80d31d-92a0-4423-a61b-adf450e38b6b">
+                    <propertyInstance
+                      Id="bf85aa45-e660-449e-9f6a-4793dc7e3d0a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1edfa6a4-af15-4c27-adc7-3d941b7cad86">
+                    <propertyInstance
+                      Id="f54ad5cd-7374-4a17-8fd0-66d132548be8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="454dc6c3-6bf7-4134-93af-a7f47b9ac4d2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2c3a0c4b-3828-4f6a-87fd-9adc49340804"
+                  name="email"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dbe4e34d-b101-4b04-843f-7999a66db83e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp Member%3D(Name%3DAuthentication OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Demail"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="416e185c-8a2e-46cc-9633-9e64ffe80900"
+                  name="password"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8d921d6b-8115-454b-9083-4f50408f0fe3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp Member%3D(Name%3DAuthentication OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpassword"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="40e27613-4129-4c9a-9f0c-e5926387fa45"
+            name="PasswordReset"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="43c0bd4c-ff45-4897-8d96-4090d60bb94b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp Member%3D(Name%3DPasswordReset OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="974fffe8-e15e-4ae5-b477-0e9b8d0cf6cc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6de035c1-f204-48cc-8ac0-9bc28244b314">
+                    <propertyInstance
+                      Id="154fa0e9-31e0-454c-9575-002921df285d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83c697e4-175d-49d7-917a-a8640a9a4f9f">
+                    <propertyInstance
+                      Id="4aef96e6-7e22-401d-9636-216cd6f8baef"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffc1e802-2d7a-44f9-bdbb-4395a54cc2fd">
+                    <propertyInstance
+                      Id="40f77548-2cbd-4f31-bb13-959990ddc007"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="301ac16e-ae6d-426f-ab0c-f0768c88fd17">
+                    <propertyInstance
+                      Id="3e767a0e-1d93-469e-8013-54e706900c51"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f92401c6-0069-44cd-94ea-a7bdacf6feec">
+                    <propertyInstance
+                      Id="e024c784-679d-491a-a60a-1253fec20b79"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e93a2733-0ac8-4ff3-a2db-6455aa235eb8">
+                    <propertyInstance
+                      Id="dabd834b-8295-4fde-9bfe-10909c5a94db"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bef3e570-ed5c-4c13-a16d-f43052518fe7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5ae1c8bd-4b1a-4211-bba3-298837ed4939"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package5_0644.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c4cac6a5-6646-42ab-90b2-8a7ee211633f"
+                  name="email"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="021ef373-3bcd-4297-a01a-35f6305dc473"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FДенис%2FDocuments%2Flaboratory_2015_16%2Fприложение файлообменник%2FApplication%2FApplication%2Fbin%2FDebug%2FApplication.exe&quot; Namespace%3DApplication.Interfaces.App Type%3DIIdentityModuleApp Member%3D(Name%3DPasswordReset OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Demail"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
